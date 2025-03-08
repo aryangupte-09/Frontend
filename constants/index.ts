@@ -6,7 +6,11 @@ export const NAV_BAR_ITEMS: NAV_LINK[] = [
     name: 'Home',
     path: '/',
   },
-  
+  {
+    id: '2',
+    name: 'Dashboard',
+    path: '/dashboard',
+  },
   {
     id: '1',
     name: 'Courses',
