@@ -51,3 +51,9 @@ export type User = {
   date_joined: string;
   courses_purchased: Course[];
 };
+export type User = {
+  user_id: string;
+  role: string; // default to 'user'
+  date_joined: string;
+  courses_purchased: Course[];
+};
