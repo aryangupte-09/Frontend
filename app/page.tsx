@@ -9,6 +9,11 @@ import Testimonial from '@/components/testimonials/testimonial';
 import { NAV_BAR_ITEMS } from '@/constants';
 import { generateCourses } from '@/test-data';
 
+<<<<<<< HEAD
+=======
+// import SkillsList from "@/components/SkillsList";
+
+>>>>>>> 6b7f0de (frontend not connected)
 const courses = generateCourses(5);
 
 export default function Home() {
@@ -20,6 +25,15 @@ export default function Home() {
         <CoursesTitle title='Popular' />
         <Courses courses={courses} />
       </div>
+<<<<<<< HEAD
+=======
+      
+      {/* Skills List Component
+      <div className='mt-10'>
+        <SkillsList />
+      </div> */}
+
+>>>>>>> 6b7f0de (frontend not connected)
       <SellingPoint />
       <Testimonial />
       <JoinPlatForm />
