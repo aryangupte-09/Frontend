@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='flex flex-row items-start justify-start text-[40px] md:text-[60px] font-text-lg-semibold lg:flex-col'>
           <b className='relative tracking-[-0.5px] leading-[50px] md:leading-[70px] h-full min-h-[125px]'>
             <span className='text-mediumpurple-100'>
-              {'Master Frontend & Backend Development: '}
+              {'Apply for Jobs and Spply for jobs and sharpen your skills with an API.'}
             </span>
             Comprehensive Courses to Elevate Your Skills
           </b>
