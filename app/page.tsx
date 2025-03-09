@@ -8,6 +8,7 @@ import SellingPoint from '@/components/selling-point/selling-point';
 import Testimonial from '@/components/testimonials/testimonial';
 import { NAV_BAR_ITEMS } from '@/constants';
 import { generateCourses } from '@/test-data';
+import Login from '@/components/auth/login';  // Importing the Login Component
 
 const courses = generateCourses(5);
 
@@ -15,6 +16,12 @@ export default function Home() {
   return (
     <div className='flex flex-col gap-[100px] pb-10'>
       <NavBar />
+
+      {/* Login Section */}
+      <div className="flex justify-center">
+        <Login />
+      </div>
+
       <Hero />
       <div className='flex flex-col gap-5'>
         <CoursesTitle title='Popular' />
